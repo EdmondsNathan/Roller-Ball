@@ -16,7 +16,7 @@ public class PlayerJump : MonoBehaviour
 
 	public void OnJump(InputValue inputValue)
 	{
-		if (_isGrounded == false)
+		if (_isGrounded == false)  
 		{
 			return;
 		}
